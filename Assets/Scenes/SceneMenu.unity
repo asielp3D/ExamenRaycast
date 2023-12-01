@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 437837515}
   - component: {fileID: 437837514}
   - component: {fileID: 437837513}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -619,7 +619,7 @@ GameObject:
   - component: {fileID: 810289035}
   - component: {fileID: 810289034}
   - component: {fileID: 810289033}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -733,6 +733,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 963194228}
+  - component: {fileID: 963194229}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   m_Layer: 0
@@ -810,12 +811,25 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0.1855421, y: -0, z: -0, w: 0.98263633}
-  m_LocalPosition: {x: 189, y: 5, z: 24}
+  m_LocalPosition: {x: 192.01, y: 7.58, z: 17.42}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 21.385, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78124fce72072244faf0964145385bc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camaraPrincipal: {fileID: 963194227}
 --- !u!1 &1789875282
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,7 +843,7 @@ GameObject:
   - component: {fileID: 1789875285}
   - component: {fileID: 1789875284}
   - component: {fileID: 1789875283}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
